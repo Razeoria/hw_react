@@ -1,0 +1,45 @@
+.cityForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    max-width: 280px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.cityForm select {
+    width: 100%;
+    max-width: 300px;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #339f3a;
+    background-color: #3eba48;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cityForm select:hover {
+    background-color: #3fac47;
+}
+
+.cityForm select:focus {
+    outline: none;
+}
+
+.cityForm button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3e9f44;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cityForm button:hover {
+    background-color: #2d7a36;
+}
+
