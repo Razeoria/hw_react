@@ -1,12 +1,50 @@
-# React + Vite
+React домашнее задание 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Задание 1
 
-Currently, two official plugins are available:
+Создание компонента Приветствия
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Создайте новый проект React при помощи create-react-app.
 
-## Expanding the ESLint configuration
+Подготовьте проект к работе.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Создайте функциональный компонент с именем Greeting
+
+Этот компонент должен принимать проп name, после чего выводить приветственное сообщение в формате: "Привет, [name]!", где [name] — это значение переданного пропа.
+
+Импортируйте компонент в App для его отображения.
+
+Запустите программу, проверьте работоспособность. 
+
+
+Задание 2
+
+Компонент Списка Покупок
+
+В компоненте App определите массив, содержащий названия любых товаров.
+
+Создайте компонент ShoppingList.
+
+Компонент должен принимать массив с названиями товаров через проп items.
+
+Также ShoppingList должен отображать каждый элемент из массива в виде <li> элемента <ul> списка.
+
+Если массив пуст, должно отображаться сообщение: "Список покупок пуст".
+
+Импортируйте ShoppingList в App, запустите приложение.
+
+Проверьте, выводится ли сообщение, если список покупок пуст.
+
+
+Задание 3 *
+
+Компонент Статуса Заказа
+
+В компоненте App определите массив, содержащий информацию о заказах в формате [{orderId: 123, status: ‘в пути’}].
+
+Создайте компонент OrderStatus который принимает два пропа: orderId (номер заказа) и status (статус заказа, например, "обработан", "в пути", "доставлен").
+
+Компонент должен отображать информацию в следующем формате: "Заказ #[orderId]: [status]".
+
+Импортируйте компонент в App, проверьте его работоспособ
+
