@@ -1,0 +1,57 @@
+.login-container {
+text-align: center;
+color: #1DB954;
+}
+
+.spotify-logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+}
+
+.tagline {
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.signin-text {
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.login-buttons {
+display: flex;
+justify-content: center;
+gap: 20px;
+border: 2px solid #1DB954;
+padding: 20px 20px;
+border-radius: 25px;
+width: fit-content;
+margin: 0 auto;
+}
+
+.login-buttons button {
+background-color: #1DB954;
+border: none;
+border-radius: 15px;
+padding: 15px;
+width: 60px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: background-color 0.3s ease, transform 0.2s ease;
+cursor: pointer;
+}
+
+.login-buttons button:hover {
+background-color: #1f6fff; /* синий */
+transform: translateY(-5px);
+}
+
+.login-buttons img {
+width: 38px;
+height: 3824px;
+}
