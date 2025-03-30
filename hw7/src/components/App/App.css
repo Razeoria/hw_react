@@ -1,0 +1,33 @@
+.App {
+text-align: center;
+margin-top: 50px;
+}
+
+.language-text {
+font-size: 32px;
+color: #cc99ff;
+font-weight: bold;
+}
+
+.language-select {
+padding: 10px;
+font-size: 16px;
+border-radius: 10px;
+border: 2px solid #9966ff;
+background-color: #f4e8ff;
+cursor: pointer;
+
+/* ОСТАВЛЯЕМ appearance по умолчанию, чтобы не потерять стрелочку */
+appearance: auto;
+}
+
+.language-select option {
+background-color: white;
+color: black;
+}
+
+/* Убираем серое выделение при фокусе */
+.language-select:focus {
+outline: none;
+box-shadow: none;
+}
