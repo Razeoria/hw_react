@@ -6,7 +6,7 @@ function ListItems() {
 
     const addItem = () => {
         if (inputValue.trim()) {
-        setItems([...items, inputValue]);
+        setItems(prevItems => [...prevItems, inputValue]);
         setInputValue('');
         }
     };
