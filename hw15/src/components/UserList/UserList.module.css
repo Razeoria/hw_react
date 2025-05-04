@@ -1,0 +1,6 @@
+.listContainer {
+    border: 2px solid rgb(182, 180, 180);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 8px 0px #00000039;
+}
