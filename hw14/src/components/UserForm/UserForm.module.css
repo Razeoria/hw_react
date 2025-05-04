@@ -1,0 +1,52 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+}
+
+.box {
+    width: 70%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 0 2px rgba(30, 136, 229, 0.2);
+    outline: none;
+}
+
+.btn {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #1e88e5;
+    color: #fff;
+    border-color: #1e88e5;
+}
+
+.error {
+    font-size: 0.875rem;
+    color: #e53935;
+    margin: 0.5rem 0;
+}
