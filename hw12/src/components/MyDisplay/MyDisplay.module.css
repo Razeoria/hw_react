@@ -1,0 +1,14 @@
+.wrapper {
+    max-width: 58rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+}
+.heading {
+    font-size: 2.625rem;
+    font-weight: 600;
+    text-align: center;
+    color: #212121;
+}
